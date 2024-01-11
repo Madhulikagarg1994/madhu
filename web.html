@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Car = {
+            Name: "Maruti",
+            Model: 2015,
+            Price: 4500000.00
+        };
+        document.write("<br>" + Car["Name"]);
+        document.write("<br>" + Car["Model"]);
+        document.write("<br>" + Car["Price"]);
+
+        document.write("<br><br><br>for in loop");
+        for (let x in Car) {
+            document.write("<br>Property :- " + x + "  Values=" + Car[x]);
+        }
+    </script>
+</body>
+
+</html>
